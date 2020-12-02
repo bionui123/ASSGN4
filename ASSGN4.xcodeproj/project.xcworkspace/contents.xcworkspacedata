@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../Downloads/texture_mapping (1)">
+   </FileRef>
+   <FileRef
+      location = "self:ASSGN4.xcodeproj">
+   </FileRef>
+</Workspace>
