@@ -36,6 +36,7 @@
 		E0EC52632576E0B300919492 /* point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
 		E0EC52662576E0FA00919492 /* point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
 		E0EC52682576E2B400919492 /* texture_mapping */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texture_mapping; sourceTree = SOURCE_ROOT; };
+		E0EC526A2578223800919492 /* nehe.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = nehe.bmp; path = ../../../Downloads/nehe.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A631F925753CD000415E59 /* main.cpp */,
+				E0EC526A2578223800919492 /* nehe.bmp */,
 				E0EC52682576E2B400919492 /* texture_mapping */,
 				E0EC52662576E0FA00919492 /* point.h */,
 				E0EC52632576E0B300919492 /* point.cpp */,

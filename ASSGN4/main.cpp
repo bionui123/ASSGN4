@@ -246,7 +246,7 @@ void initScene()
     glEnable(GL_LIGHT0);
     glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, lightCol);
     glEnable(GL_POINT_SMOOTH);
-
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, 32, 32, 0, GL_RGB, GL_BYTE, texID);
     glShadeModel(GL_SMOOTH);
     //glShadeModel(GL_FLAT);
     
@@ -301,7 +301,7 @@ void drawAxis()
 void drawBody()
 {
     glEnable(GL_TEXTURE_2D);
-    glBindTexture(GL_TEXTURE_2D, texID[0]);
+    glBindTexture(GL_TEXTURE_2D, texID[1]);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
     if(isWire ==  true)
     {
@@ -420,6 +420,8 @@ void drawBody()
     else
         solidBox(2.0, 0.4, 1.0);
     glPopMatrix();
+    glDisable(GL_TEXTURE_2D);
+
 }
 
 
